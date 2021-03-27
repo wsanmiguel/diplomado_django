@@ -12,20 +12,25 @@ print("\n\n")
 #Ejercicio de Ciclo For
 list_pares = [2,4,6,8,10]
 
+print("\n")
 for i in list_pares:
   print(i)
 
+print("\n")
 for i in range(len(list_pares)):
   print(i,": ",list_pares[i])
 
 dictionary_user = {'id': 123456, 'name': 'Joel David Sanmiguel', 'phone': '3102001547', 'address': 'CLL 1N # 20- 04 P3'}
 
+print("\n")
 for key,value in dictionary_user.items():
   print(key,": ",value)
 
+print("\n")
 for key in dictionary_user.keys():
   print(key,": ",dictionary_user[key])
 
+print("\n")
 for value in dictionary_user.values():
   print(value)
 
