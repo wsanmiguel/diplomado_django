@@ -1,0 +1,4 @@
+1|Ricardo|Gomez|1,2,3,5
+2|Mariela|Franco|1
+3|Graciela|Maldonado|2,3
+1|Ricardo|Gomez|1,2,3,5
