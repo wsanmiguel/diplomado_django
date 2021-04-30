@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Listado de {{title}}
+{% endblock %} 
+
+{% block content %}
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>Teléfono</th>
+            <th>Dirección</th>
+        </tr>
+        {% for third in thirds %}
+            <tr>
+                <td>{{ third.id }}</td>
+                <td>{{ third.first_name }}</td>
+                <td>{{ third.last_name }}</td>
+                <td>{{ third.phone }}</td>
+                <td>{{ third.address }}</td>                
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

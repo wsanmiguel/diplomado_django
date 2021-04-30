@@ -1,4 +1,4 @@
-"""mysite URL Configuration
+"""inventory URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('institution/', include('education_institution.urls')),
+    path('inventory/', include('fixed_assets.urls'))
 ]

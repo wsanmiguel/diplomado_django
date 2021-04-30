@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Detalle de de {{title}}
+{% endblock %} 
+
+{% block content %}
+    <table>
+        <tr>
+            <th>ID</th>
+            <td>{{ third.id }}</td>
+        </tr>
+        <tr>
+            <th>Nombres</th>
+            <td>{{ third.first_name }}</td>
+        </tr>
+        <tr>
+            <th>Apellidos</th>
+            <td>{{ third.last_name }}</td>
+        </tr>
+        <tr>
+            <th>Teléfono</th>
+            <td>{{ third.phone }}</td>
+        </tr>
+        <tr>
+            <th>Dirección</th>
+            <td>{{ third.address }}</td>                
+        </tr>
+    </table>
+{% endblock %}
